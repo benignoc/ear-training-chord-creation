@@ -16,7 +16,7 @@ It will let you choose the number of times the chord is repeated, and for how lo
 
 ## Dependencies
 
-It depends on [Lokasenna's GUI](https://github.com/ReaTeam/ReaScripts-Templates/tree/master/GUI/Lokasenna_GUI). It is part of the ReaTeam script's and templates offering which I highly recommend. 
+It depends on [Lokasenna's GUI](https://github.com/ReaTeam/ReaScripts-Templates/tree/master/GUI/Lokasenna_GUI). It is part of the ReaTeam script's and templates offering which I highly recommend. My most sincere thanks to him and all the team for sharing and helping so much with the learning process.
 
 At any rate I have added the code in this repository to avoid having distinct versions causing problems and for the ease of use. I may want to embed the code to avoid making subfolders but that will probably be for the future.
 
