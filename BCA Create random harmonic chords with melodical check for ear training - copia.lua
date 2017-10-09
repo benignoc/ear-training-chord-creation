@@ -64,6 +64,10 @@ end
 
 local function Main()
   track =  reaper.GetSelectedTrack( 0, 0 ) -- We get the selected track from project (TODO: we assume only one selected)
+  if track == nil then
+    Msg("Please select a track first")
+    return
+  end
   pos_init = reaper.GetCursorPosition()
   pos = pos_init
   pos_end = time_note
