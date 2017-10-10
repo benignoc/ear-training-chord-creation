@@ -38,5 +38,5 @@ Where X is the number of notes in the chord, Y is the number of Octaves in the r
 
 ## HISTORY
 
-- 2017-10-10 Fixed bug on random so that time is more precise (allowing to click fast without duplicate random values) math.randomseed(reaper.time_precise()) 
-- 2017-10-09 Fixed bug on non-selected track
+- 2017-10-10 Fixed bug on random so that time is more precise (allowing to click fast without duplicate random values) math.randomseed(reaper.time_precise()) *Thanks to **amagalma** from forum.cockos.com for pointing the solution out.*
+- 2017-10-09 Fixed bug on non-selected track.
