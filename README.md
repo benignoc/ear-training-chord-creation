@@ -33,5 +33,10 @@ Where X is the number of notes in the chord, Y is the number of Octaves in the r
 
 ## TODO
 
-- Finish minor bugs (~~error when not selecting track~~) and others yet undetected.
+- Finish minor bugs 
 - Problem when clicking **GO** too quickly, the randomization depends on the time, but I think this goes down just to the second, so if you click twice quickly within the same second, the items generated will be identical **If anyone can help me with this, it would be much appreciated**
+
+## HISTORY
+
+- 2017-10-10 Fixed bug on random so that time is more precise (allowing to click fast without duplicate random values) math.randomseed(reaper.time_precise()) 
+- 2017-10-09 Fixed bug on non-selected track

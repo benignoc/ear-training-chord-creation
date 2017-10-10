@@ -1,4 +1,4 @@
-math.randomseed(os.time()) -- So as to get different random numbers each time.
+math.randomseed(reaper.time_precise()) -- So as to get different random numbers each time.
 
 local function Msg(param)
   reaper.ShowConsoleMsg(tostring(param).."\n")
