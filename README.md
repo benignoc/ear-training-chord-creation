@@ -33,8 +33,7 @@ Where X is the number of notes in the chord, Y is the number of Octaves in the r
 
 ## TODO
 
-- Finish minor bugs 
-- Problem when clicking **GO** too quickly, the randomization depends on the time, but I think this goes down just to the second, so if you click twice quickly within the same second, the items generated will be identical **If anyone can help me with this, it would be much appreciated**
+- To be sure no same items are generated, you could save generated items into a table (or into a file) and when GO is clicked, you could index the table and see if the item about to be generated exists already. If yes, then make a new randomseed and check again until a non-existent item is generate.
 
 ## HISTORY
 
